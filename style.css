@@ -74,7 +74,12 @@ main h1 {
     margin-bottom: 20px;
     color: #ffffff;
 }
-
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 
 section {
     background: white;
@@ -107,7 +112,16 @@ h4 {
     color: #000000;
     text-align: center;
     font-weight: normal;
+    font-size: larger;
 }
+
+h5 {
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    font-size: x-large;
+}
+
 
 p {
     color: #ffffff;
@@ -158,16 +172,7 @@ footer {
     transform: scale(1.05); 
 }
 
-.about {
-    background-image: url('https://www.itsonlycricket.com/wp-content/uploads/2021/03/cricket-field.jpg'); /* 👈 replace with your image path */
-    background-size: cover;  /* makes image cover entire section */
-    background-position: center;  /* centers the image */
-    background-repeat: no-repeat;
-    
-    padding: 100px 20px;
-    color: white;
-    text-align: center;
-}
+
 .contact-container {
   display: flex;
   justify-content: space-around;
