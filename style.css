@@ -12,7 +12,7 @@ body {
     background-color: #f4f6f8;
     color: #333;
 }
-
+/* Heading styles */
 h1{
     text-align: center;
     color: #ffffff;
@@ -21,16 +21,18 @@ h1{
 title {
     color:#ffffff
 }
+/* Header Section*/
 header {
     background-color: #000000;
     padding: 15px 0;
 }
-
+/* Logo container styling */
 .logo-header img {
   width: 60px;
   height: auto;
   background-color: rgb(0, 0, 0);
 }
+/* Logo image size */
 .logo-header {
   display: flex;              
   align-items: center;        
@@ -39,16 +41,17 @@ header {
   background-color:rgb(0, 0, 0);
   padding: 10px 20px;    
   }
+/* Logo heading text */
 .logo-header h1 {
   font-size: 40px;
 }
-
+/* Navigation Bar*/
 nav {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-
+/* Navigation links */
 nav a {
     color: white;
     text-decoration: none;
@@ -56,31 +59,32 @@ nav a {
     font-weight: bold;
     transition: 0.3s;
 }
-
+/* Hover effect for links */
 nav a:hover {
     color: #ffffff;
 }
 
-
+/* Main Content Area */
 main {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
 }
 
-
+/* Main heading inside main */
 main h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #ffffff;
 }
+/* Background image styling */
 body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-
+/* Section Boxes */
 section {
     background: white;
     margin-bottom: 20px;
@@ -89,12 +93,12 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-
+/* Section headings */
 section h2 {
     margin-bottom: 10px;
     color: #ffffff;
 }
-
+/* General heading styles */
 h2 { 
     text-align: center;
 
@@ -122,21 +126,12 @@ h5 {
     font-size: x-large;
 }
 
-
+/* Paragraph text */
 p {
     color: #ffffff;
 }
 
-ul {
-    padding-left: 20px;
-    text-align: center;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-
+/* Footer */
 footer {
     text-align: center;
     padding: 15px;
@@ -154,7 +149,7 @@ footer {
     width: 100%;
     margin: 150px auto;
 }
-
+/* Gallery images */
 .gallery img {
     width: 100%;
     height: 250px;
@@ -163,7 +158,7 @@ footer {
     display: block;
     transition: transform 0.3s ease;     
 }
-
+/* Hover zoom effect on images */
 .gallery img:hover {
     transform: scale(1.05);
 }
@@ -172,7 +167,7 @@ footer {
     transform: scale(1.05); 
 }
 
-
+/* Contact Section */
 .contact-container {
   display: flex;
   justify-content: space-around;
@@ -180,7 +175,7 @@ footer {
   padding: 40px;
   gap: 20px;
 }
-
+/* Contact form and info boxes */
 .contact-form,
 .contact-info {
   background:black;
@@ -189,7 +184,7 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
+/* Form inputs */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -198,7 +193,7 @@ footer {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
-
+/* Submit button */
 .contact-form button {
   width: 100%;
   padding: 10px;
@@ -208,16 +203,16 @@ footer {
   border-radius: 8px;
   cursor: pointer;
 }
-
+/* Button hover effect */
 .contact-form button:hover {
   background: #a00000;
 }
-
+/* Contact info text alignment */
 .contact-info p {
   text-align: left;
   margin: 10px 0;
 }
-
+/* @Media */
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
